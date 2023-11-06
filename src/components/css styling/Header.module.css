@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    padding-block: 2rem;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    color: white;
+}
