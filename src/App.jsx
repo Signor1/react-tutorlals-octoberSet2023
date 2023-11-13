@@ -9,6 +9,12 @@ import ExampleFour from "./components/hooks/state/ExampleFour";
 import ExampleOne, { SiderBar } from "./components/hooks/state/ExampleOne";
 import ExampleThree from "./components/hooks/state/ExampleThree";
 import ExampleTwo from "./components/hooks/state/ExampleTwo";
+//useEffect hook
+import EffectOne from "./components/hooks/effect/EffectOne";
+import EffectTwo from "./components/hooks/effect/EffectTwo";
+import EffectThree from "./components/hooks/effect/EffectThree";
+import MouseContainer from "./components/hooks/effect/MouseContainer";
+
 
 
 const App = () => {
@@ -29,6 +35,12 @@ const App = () => {
       <ExampleThree />
       <ExampleFour />
       <ExampleFive />
+
+      {/* useEffect Hook */}
+      {/* <EffectOne /> */}
+      <EffectTwo />
+      {/* <EffectThree /> */}
+      <MouseContainer />
     </>
 
   )
