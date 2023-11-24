@@ -24,6 +24,7 @@ import ReduceThree from "./components/hooks/reducer/ReduceThree";
 import Container from "./components/hooks/callback/Container";
 import Demo from "./components/hooks/memo/Demo";
 import Input from "./components/hooks/ref/Input";
+import Hello from "./components/hooks/custom/Hello";
 
 //useContext example
 export const User = createContext()
@@ -72,6 +73,9 @@ const App = () => {
 
         {/* useRef Hook */}
         <Input />
+
+        {/* custom hook */}
+        <Hello />
       </>
     </User.Provider>
 
