@@ -22,6 +22,8 @@ import ReduceOne from "./components/hooks/reducer/ReduceOne";
 import ReduceTwo from "./components/hooks/reducer/ReduceTwo";
 import ReduceThree from "./components/hooks/reducer/ReduceThree";
 import Container from "./components/hooks/callback/Container";
+import Demo from "./components/hooks/memo/Demo";
+import Input from "./components/hooks/ref/Input";
 
 //useContext example
 export const User = createContext()
@@ -64,6 +66,12 @@ const App = () => {
 
         {/* useCallback */}
         <Container />
+
+        {/* useMemo Hook */}
+        <Demo />
+
+        {/* useRef Hook */}
+        <Input />
       </>
     </User.Provider>
 
